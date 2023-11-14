@@ -1,19 +1,22 @@
 import "../styles/QuestionBlock.css";
+import PropTypes from "prop-types";
 
-const QuestionBlock = () => {
+const QuestionBlock = ({ faq }) => {
+  const { question, answer, id } = faq;
+
   return (
     <div className="question">
       <header className="question-header">
-        <h2 className="question-header-text">Question 1</h2>
+        <h2 className="question-header-text">{question}</h2>
         <button className="toggle-button">+</button>
       </header>
-      <p className="answer">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-        cupiditate accusamus veritatis sapiente quisquam repudiandae ullam vero
-        blanditiis. Maxime, nostrum!
-      </p>
+      <p className="answer">{answer}</p>
     </div>
   );
+};
+
+QuestionBlock.propTypes = {
+  faq: PropTypes.object.isRequired,
 };
 
 export default QuestionBlock;
