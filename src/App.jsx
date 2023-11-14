@@ -1,5 +1,7 @@
+import FaqContainer from "./components/FaqContainer";
+
 const App = () => {
-  return <h1>FAQ Component</h1>;
+  return <FaqContainer />;
 };
 
 export default App;
