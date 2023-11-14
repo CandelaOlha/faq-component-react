@@ -1,7 +1,7 @@
 @import "./_reset";
 
 .question {
-  border: 1px solid black;
+  border: 1px solid #fafafa;
   border-radius: 10px;
   margin-bottom: 20px;
   padding: 20px;
@@ -14,17 +14,19 @@
 }
 
 .question-header-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .toggle-button {
   background-color: transparent;
   border: none;
+  color: #fafafa;
   font-size: 24px;
 }
 
 .answer {
   display: none;
+  font-size: 14px;
   line-height: 1.4;
   margin-top: 20px;
 }
