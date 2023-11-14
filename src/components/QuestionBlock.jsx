@@ -1,3 +1,5 @@
+import "../styles/QuestionBlock.css";
+
 const QuestionBlock = () => {
   return (
     <div className="question">

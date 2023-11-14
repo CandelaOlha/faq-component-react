@@ -1,0 +1,29 @@
+@import "./_reset";
+
+.question {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.question-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-header-text {
+  font-size: 20px;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}
+
+.answer {
+  display: none;
+  line-height: 1.4;
+  margin-top: 20px;
+}

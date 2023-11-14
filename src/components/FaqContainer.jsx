@@ -1,9 +1,10 @@
+import "../styles/FaqContainer.css";
 import QuestionBlock from "./QuestionBlock";
 
 const FaqContainer = () => {
   return (
-    <div>
-      <h1>FAQ Container</h1>
+    <div className="faq-container">
+      <h1 className="headline">FAQ Container</h1>
       <QuestionBlock />
     </div>
   );
