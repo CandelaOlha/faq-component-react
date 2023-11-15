@@ -5,10 +5,7 @@ const QuestionBlock = ({ faq, toggleQuestion }) => {
   const { question, answer, active, button, id } = faq;
 
   return (
-    <div
-      onClick={() => toggleQuestion(id)}
-      className={`question-block ${active && "active-block"}`}
-    >
+    <div onClick={() => toggleQuestion(id)} className="question-block">
       <header className="question-header">
         <h2 className="question-header-text">{question}</h2>
         <button className="toggle-button">{button}</button>
