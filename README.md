@@ -1,6 +1,6 @@
 # ❓ FAQ Component
 
-In order to maintain my daily programming practice, I chose to develop the FAQ component considering that it is one of the most common front-end patterns.
+In order to maintain my daily programming practice, I chose to develop the FAQ component considering that it's one of the most common front-end patterns.
 
 ## How to start
 
@@ -13,7 +13,7 @@ To view the files and visit the website you must run the following commands in y
 
 Users should be able to:
 
-- Hide/Show the answer to a question when the question is clicked
+- Hide/show the answer to a question when the question is clicked
 - View the optimal layout for the component depending on their device's screen size
 
 ## Technologies
