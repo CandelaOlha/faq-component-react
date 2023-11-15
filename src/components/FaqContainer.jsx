@@ -64,7 +64,7 @@ const FaqContainer = () => {
 
   return (
     <div className="faq-container">
-      <h1 className="headline">FAQ Container</h1>
+      <h1 className="headline">FAQ Component</h1>
       {faqs.map((faq) => (
         <QuestionBlock faq={faq} key={faq.id} toggleQuestion={toggleQuestion} />
       ))}
