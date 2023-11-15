@@ -26,4 +26,4 @@ I'm still figuring out how to add a transition so that the question block expand
 
 ## Check it out!
 
-Follow this link to see the component 👉 
+Follow this link to see the component 👉 [https://candela-olha-faq-component.netlify.app/](https://candela-olha-faq-component.netlify.app/)
