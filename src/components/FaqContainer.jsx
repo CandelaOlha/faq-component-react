@@ -8,6 +8,7 @@ const initialFaqs = [
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate accusamus veritatis sapiente quisquam repudiandae ullam vero blanditiis. Maxime, nostrum!",
     active: false,
+    button: "+",
     id: 1,
   },
   {
@@ -15,6 +16,7 @@ const initialFaqs = [
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate accusamus veritatis sapiente quisquam repudiandae ullam vero blanditiis. Maxime, nostrum!",
     active: false,
+    button: "+",
     id: 2,
   },
   {
@@ -22,6 +24,7 @@ const initialFaqs = [
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate accusamus veritatis sapiente quisquam repudiandae ullam vero blanditiis. Maxime, nostrum!",
     active: false,
+    button: "+",
     id: 3,
   },
   {
@@ -29,6 +32,7 @@ const initialFaqs = [
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate accusamus veritatis sapiente quisquam repudiandae ullam vero blanditiis. Maxime, nostrum!",
     active: false,
+    button: "+",
     id: 4,
   },
   {
@@ -36,6 +40,7 @@ const initialFaqs = [
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate accusamus veritatis sapiente quisquam repudiandae ullam vero blanditiis. Maxime, nostrum!",
     active: false,
+    button: "+",
     id: 5,
   },
 ];
@@ -47,8 +52,10 @@ const FaqContainer = () => {
     const newArray = faqs.map((faq) => {
       if (faq.id === id) {
         faq.active = !faq.active;
+        faq.button = "-";
       } else {
         faq.active = false;
+        faq.button = "+";
       }
       return faq;
     });
