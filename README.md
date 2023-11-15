@@ -1,8 +1,29 @@
-# React + Vite
+# ❓ FAQ Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In order to maintain my daily programming practice, I chose to develop the FAQ component considering that it is one of the most common front-end patterns.
 
-Currently, two official plugins are available:
+## How to start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To view the files and visit the website you must run the following commands in your console:
+
+- `npm install`
+- `npm start`
+
+## How it works
+
+Users should be able to:
+
+- Hide/Show the answer to a question when the question is clicked
+- View the optimal layout for the component depending on their device's screen size
+
+## Technologies
+
+- React JS
+
+## What comes next
+
+I'm still figuring out how to add a transition so that the question block expands slowly.
+
+## Check it out!
+
+Follow this link to see the component 👉 
